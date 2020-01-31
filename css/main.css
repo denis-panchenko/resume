@@ -68,13 +68,13 @@ header{
 
 h1{
     font-family: Montserrat Bold;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
 }
 
 h2{
     font-family: Open Sans Semibold;
-    font-size: 25px;
+    font-size: 30px;
     margin: 10px 0;
 }
 
@@ -95,7 +95,7 @@ h2{
 .contacts-link{
     color: #ffffff;
     font-family: Montserrat regular;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
 }
 
@@ -135,7 +135,7 @@ h3{
 
 .social-link{
     font-family: Montserrat regular;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 5px;
     color: black;
 }
@@ -155,7 +155,7 @@ h3{
 
 .interests-text{
     font-family: Montserrat regular;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 0 20px;
 }
 
@@ -172,7 +172,7 @@ h3{
 
 .skills-text{
     font-family: Open Sans Semibold;
-    font-size: 20px;
+    font-size: 16px;
     margin: 5px 0;
 }
 
@@ -213,12 +213,12 @@ h3{
 .experience-company,
 .experience-duty{
     font-family: Montserrat regular;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 h4{
     margin: 10px 0;
     font-family: Open Sans Semibold;
-    font-size: 20px;
+    font-size: 16px;
 }
 
