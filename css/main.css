@@ -108,7 +108,7 @@ main{
 aside{
     width: 35%;
     background-color: #fbfcfc;
-    padding: 0px 50px 50px 260px;
+    padding: 0px 20px 50px 260px;
 }
 
 .subtitle{
@@ -149,6 +149,10 @@ h3{
     width: 35%;
 }
 
+.interests-img{
+    width: 50px;
+}
+
 .interests-text{
     font-family: Montserrat regular;
     font-size: 20px;
@@ -170,6 +174,45 @@ h3{
     font-family: Open Sans Semibold;
     font-size: 20px;
     margin: 5px 0;
+}
 
+/*main*/
+
+.main{
+    width: 65%;
+    padding: 0 260px 50px 20px;
+}
+
+.experience{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.experience:before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/circle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.experience-info{
+    padding: 0 30px;
+}
+
+.experience-period,
+.experience-company,
+.experience-duty{
+    font-family: Montserrat regular;
+    font-size: 20px;
+}
+
+h4{
+    margin: 10px 0;
+    font-family: Open Sans Semibold;
+    font-size: 20px;
 }
 
