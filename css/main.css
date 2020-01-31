@@ -106,7 +106,7 @@ main{
 }
 
 aside{
-    width: 35%;
+    width: 40%;
     background-color: #fbfcfc;
     padding: 0px 20px 50px 260px;
 }
@@ -179,7 +179,7 @@ h3{
 /*main*/
 
 .main{
-    width: 65%;
+    width: 60%;
     padding: 0 260px 50px 20px;
 }
 
@@ -200,7 +200,13 @@ h3{
 }
 
 .experience-info{
-    padding: 0 30px;
+    padding: 0 20px;
+    width: 40%;
+}
+
+.experience-duty{
+    width: 60%;
+    padding: 0 20px;
 }
 
 .experience-period,
