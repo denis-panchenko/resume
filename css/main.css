@@ -40,6 +40,15 @@ header{
     margin: auto;
 }
 
+.container-fluid{
+    width: 100%;
+    background: linear-gradient(90deg, #fbfcfc 35%, transparent 0%);
+}
+
+.d-flex{
+    display: flex;
+}
+
 .data{
     padding: 50px 0;
     display: flex;
@@ -101,14 +110,8 @@ h2{
 
 /*aside*/
 
-main{
-    display: flex;
-}
-
 aside{
     width: 40%;
-    background-color: #fbfcfc;
-    padding: 0px 20px 50px 260px;
 }
 
 .subtitle{
@@ -180,7 +183,6 @@ h3{
 
 .main{
     width: 60%;
-    padding: 0 260px 50px 20px;
 }
 
 .experience{
