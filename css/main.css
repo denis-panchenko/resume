@@ -52,13 +52,12 @@ header{
 .data{
     padding: 50px 0;
     display: flex;
-    justify-content: space-between;
 }
 
 .info{
     display: flex;
     align-items: center;
-    width: 75%;
+    margin: auto;
 }
 
 .photo{
@@ -72,7 +71,7 @@ header{
 }
 
 .name{
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 h1{
@@ -87,31 +86,11 @@ h2{
     margin: 10px 0;
 }
 
-.contacts{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    width: 25%;
-}
-
-.contacts-info{
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.contacts-link{
-    color: #ffffff;
-    font-family: Montserrat regular;
-    font-size: 16px;
-    padding: 10px;
-}
-
 /*aside*/
 
 aside{
     width: 40%;
+    padding: 0 15px;
 }
 
 .subtitle{
@@ -133,7 +112,7 @@ h3{
 }
 
 .social-wave{
-    margin: 5px 0;
+    margin: 8px 0;
     display: flex;
     align-items: center;
 }
@@ -178,13 +157,14 @@ h3{
 .skills-text{
     font-family: Open Sans Semibold;
     font-size: 16px;
-    margin: 5px 0;
+    margin: 8px 0;
 }
 
 /*main*/
 
 .main{
     width: 60%;
+    padding: 0 15px;
 }
 
 .experience{
