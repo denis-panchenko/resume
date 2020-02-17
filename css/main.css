@@ -169,7 +169,10 @@ h3{
 
 .experience{
     display: flex;
-    margin-bottom: 40px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
 }
 
 .experience:before{
@@ -179,11 +182,12 @@ h3{
     height: 20px;
     border-radius: 50%;
     border: 2px solid #4c5eab;
+    position: absolute;
 }
 
 .experience-info{
-    padding: 0 20px;
-    width: 40%;
+    padding: 0 40px;
+    width: 45%;
 }
 
 .experience-duty{
