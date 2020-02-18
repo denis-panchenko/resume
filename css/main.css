@@ -38,12 +38,12 @@ header{
     width: 90%;
     max-width: 1400px;
     margin: auto;
+    padding: 40px 0;
 }
 
 .container-fluid{
     width: 100%;
-    padding-bottom: 50px;
-    background: linear-gradient(90deg, #fbfcfc 40%, transparent 0%);
+    background: linear-gradient(90deg, #4f89980f 40%, transparent 0%);
 }
 
 .d-flex{
@@ -97,7 +97,7 @@ aside{
 .subtitle{
     display: flex;
     align-items: center;
-    margin: 25px 0;
+    margin: 0 0 25px;
 }
 
 .subtitle-img{
@@ -116,12 +116,13 @@ h3{
     margin: 8px 0;
     display: flex;
     align-items: center;
+    margin: 14px 0;
 }
 
 .social-link{
     font-family: Montserrat regular;
     font-size: 16px;
-    margin-left: 5px;
+    margin-left: 10px;
     color: black;
 }
 
@@ -141,7 +142,7 @@ h3{
 .interests-text{
     font-family: Montserrat regular;
     font-size: 16px;
-    margin: 0 0 20px;
+    margin: 0 0 30px;
 }
 
 .skills-list{
@@ -150,15 +151,22 @@ h3{
 }
 
 .skills-text:before{
-    content: '✔';
-    color: #4c5eab;
-    margin-right: 5px;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url("../img/done.png");
+    background-position: center;
+    background-size: cover;
+
 }
 
 .skills-text{
     font-family: Open Sans Semibold;
     font-size: 16px;
-    margin: 8px 0;
+    margin: 14px 0;
+    display: flex;
 }
 
 /*main*/
@@ -173,21 +181,11 @@ h3{
     position: relative;
     list-style: none;
     padding: 0;
-    margin-bottom: 30px;
-}
-
-.experience:before{
-    content: '';
-    display: block;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: 1px solid #4c5eab;
-    position: absolute;
+    margin: 30px -15px;
 }
 
 .experience-info{
-    padding: 0 40px;
+    padding: 0 15px;
     width: 45%;
 }
 
@@ -201,12 +199,14 @@ h3{
 .experience-duty{
     font-family: Montserrat regular;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 h4{
     margin: 10px 0;
     font-family: Open Sans Semibold;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 /*portfolio*/
@@ -236,7 +236,7 @@ h4{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: rgba(76, 94, 171, 0.9);
+    background: rgba(169, 169, 169, 0.9);
     opacity: 0;
     transition: opacity .3s linear;
 }
@@ -245,18 +245,16 @@ h4{
     opacity: 1;
 }
 
-.card-text{
+.work-link{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-}
-
-.work-link{
-    font-family: Montserrat regular;
+    font-family: Montserrat Bold;
+    letter-spacing: 2px;
     color: #fff;
     font-size: 20px;
     text-transform: uppercase;
-    padding: 15px;
+    width: 100%;
+    height: 100%;
 }
