@@ -38,7 +38,6 @@ header{
     width: 90%;
     max-width: 1400px;
     margin: auto;
-    padding: 40px 0;
 }
 
 .container-fluid{
@@ -97,7 +96,7 @@ aside{
 .subtitle{
     display: flex;
     align-items: center;
-    margin: 0 0 25px;
+    margin: 40px 0;
 }
 
 .subtitle-img{
@@ -216,11 +215,12 @@ h4{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: -15px;
+    padding-bottom: 70px;
 }
 
 .portfolio-item{
     width: 30%;
-    margin: 15px;
+    margin: 30px 15px;
     position: relative;
 }
 
